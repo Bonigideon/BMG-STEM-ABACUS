@@ -1,0 +1,234 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background: #f7f8fa;
+    color: #222;
+}
+
+header {
+    background: #006B3C;
+    color: white;
+    padding: 2em 0 1em 0;
+}
+
+header .container {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
+nav {
+    margin-top: 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    transition: background 0.2s;
+}
+
+nav a:hover {
+    background: #00512e;
+}
+
+main {
+    max-width: 1000px;
+    margin: 2em auto;
+    padding: 1em;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.logo {
+    max-width: 160px;
+    margin-bottom: 1em;
+}
+
+.btn {
+    display: inline-block;
+    background: #006B3C;
+    color: white;
+    padding: 0.7em 2em;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1em;
+    transition: background 0.2s;
+}
+
+.btn:hover {
+    background: #00512e;
+}
+
+.highlights {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+
+.highlight {
+    background: #fff;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    flex: 1 1 45%;
+    min-width: 260px;
+}
+
+.highlight h3 {
+    margin-top: 0;
+    color: #006B3C;
+}
+
+.highlight a {
+    color: #006B3C;
+    text-decoration: underline;
+}
+
+.videos {
+    margin-bottom: 2em;
+}
+
+.videos h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.video-grid {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video-grid iframe {
+    width: 320px;
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    background: #fff;
+}
+
+/* Events/Workshops Upload Section */
+.events-upload {
+    background: #f1f8f4;
+    padding: 1.5em;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+.events-upload h2 {
+    color: #006B3C;
+    margin-top: 0;
+}
+
+#event-upload-form {
+    display: grid;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+#event-upload-form label {
+    font-weight: bold;
+    color: #222;
+}
+
+#event-upload-form input,
+#event-upload-form textarea {
+    padding: 0.6em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#event-upload-form button {
+    background: #006B3C;
+    color: white;
+    padding: 0.7em 2em;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#event-upload-form button:hover {
+    background: #00512e;
+}
+
+#uploadedEvents {
+    margin-top: 1em;
+}
+
+.uploaded-event {
+    background: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    margin-bottom: 1em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.uploaded-event h3 {
+    margin: 0 0 0.5em 0;
+    color: #006B3C;
+}
+
+/* Contact info section styling */
+.contact-info {
+    background: #eef4ed;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-info h2 {
+    color: #006B3C;
+    margin-top: 0;
+}
+
+.contact-info a {
+    color: #006B3C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info .social-icon {
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info .facebook { color: #1877F3; }
+.contact-info .instagram { color: #E4405F; }
+.contact-info .twitter { color: #1DA1F2; }
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer .social-icon.facebook { color: #81afeb; }
+footer .social-icon.instagram { color: #c9344f; }
+footer .social-icon.twitter { color: #1d93dd; }

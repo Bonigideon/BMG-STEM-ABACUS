@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMG Company of Ghana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>BMG Company of Ghana</h1>
+            <p class="subtitle">Empowering Youth through STEM (Robotics) & Abacus Education</p>
+            <nav>
+                <a href="#intro">Home</a>
+                <a href="#events">Events</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#register">Register</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Intro Section -->
+        <section class="intro" id="intro">
+            <img src="assets/images/logo.png" alt="BMG Company Logo" class="logo">
+            <h2>Welcome to BMG Company!</h2>
+            <p>
+                We nurture young minds in science, technology, engineering, and mathematics through hands-on robotics and abacus programs.
+            </p>
+            <a href="#gallery" class="btn">View Our Gallery</a>
+        </section>
+
+        <!-- Student/Project Showcase -->
+        <section class="showcase" id="showcase">
+            <h2>Student & Project Showcase</h2>
+            <div class="showcase-grid">
+                <!-- Add showcases here -->
+                <div class="showcase-item">
+                    <img src="assets/images/student1.jpg" alt="Student 1">
+                    <h3>Ama Yeboah</h3>
+                    <p>Winner of 2025 Robotics Challenge.</p>
+                </div>
+                <div class="showcase-item">
+                    <img src="assets/images/project1.jpg" alt="Project 1">
+                    <h3>Math Abacus Stars</h3>
+                    <p>Team project for National Math Day.</p>
+                </div>
+                <!-- Add more items as needed -->
+            </div>
+        </section>
+
+        <!-- Upcoming Events/Workshops -->
+        <section class="events" id="events">
+            <h2>Upcoming Events & Workshops</h2>
+            <div class="event-list">
+                <!-- ***** ADD YOUR EVENTS HERE ***** -->
+                <div class="event-item">
+                    <h3>Robotics Bootcamp</h3>
+                    <p>Date: will be out soon<br>Location: will be out soon<br>
+                    Details: Intensive hands-on robotics training for ages 5 and above.</p>
+                    <img src="assets/images/robotics-event.jpg" alt="Robotics Event">
+                </div>
+                <div class="event-item">
+                    <h3>Abacus Training Workshop</h3>
+                    <p>Date: 2025-09-10<br>Location: Kumasi Learning Hub<br>
+                    Details: Fun and engaging abacus lessons for kids.</p>
+                    <img src="assets/images/abacus-event.jpg" alt="Abacus Event">
+                </div>
+                <!-- Add new event blocks here as your events come up! -->
+            </div>
+        </section>
+
+        <!-- Photo & Video Gallery -->
+        <section class="gallery" id="gallery">
+            <h2>Photo & Video Gallery</h2>
+            <div class="gallery-grid">
+                <img src="assets/images/gallery1.jpg" alt="Gallery Image 1">
+                <img src="assets/images/gallery2.jpg" alt="Gallery Image 2">
+                <video controls src="assets/videos/robotics-demo.mp4"></video>
+                <!-- Add more images or videos as needed -->
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq" id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3>What ages can join BMG programs?</h3>
+                    <p>Children from 4 and above years old are welcome.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How do I register?</h3>
+                    <p>Fill out the registration form below or contact us by phone/email.</p>
+                </div>
+                <!-- Add more FAQs as needed -->
+            </div>
+        </section>
+
+        <!-- Newsletter Subscription -->
+        <section class="newsletter" id="newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+            <form>
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <!-- Online Registration Form -->
+        <section class="register" id="register">
+            <h2>Register for a Program</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Telephone" required>
+                <select required>
+                    <option value="">Select Program</option>
+                    <option value="Robotics">Robotics</option>
+                    <option value="Abacus">Abacus</option>
+                </select>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+        <!-- Blog/News Section -->
+        <section class="blog" id="blog">
+            <h2>Latest News & Blog</h2>
+            <div class="blog-list">
+                <div class="blog-item">
+                    <h3>Our Robotics Team Wins National Award!</h3>
+                    <p>Posted July 2025. Congratulations to our students...</p>
+                    <a href="#">Read more</a>
+                </div>
+                <!-- Add more news/blog posts as needed -->
+            </div>
+        </section>
+
+        <!-- Location Map -->
+        <section class="location" id="location">
+            <h2>Our Location</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126916.40862707336!2d-0.2550472!3d5.6148189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10208629f7c7c6eb%3A0x6ad2c6c2d1e81a4e!2sAccra%2C%20Ghana!5e0!3m2!1sen!2sgh!4v1626170834567!5m2!1sen!2sgh" 
+                width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form" id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p>
+                <strong>Telephone:</strong> <a href="tel:0257168115">0257168115</a> / <a href="tel:0553448460">0553448460</a><br>
+                <strong>Email:</strong> <a href="mailto:bmgstem1@gmail.com">bmgstem1@gmail.com</a>
+            </p>
+            <p>
+                <strong>Follow us:</strong>
+                <a href="https://facebook.com/" class="social-icon facebook" target="_blank" rel="noopener">Facebook</a> |
+                <a href="https://instagram.com/" class="social-icon instagram" target="_blank" rel="noopener">Instagram</a> |
+                <a href="https://twitter.com/" class="social-icon twitter" target="_blank" rel="noopener">Twitter</a>
+            </p>
+        </section>
+
+        <!-- Partners & Sponsors -->
+        <section class="partners" id="partners">
+            <h2>Our Partners & Sponsors</h2>
+            <div class="partner-list">
+                <img src="assets/images/partner1.png" alt="Partner 1">
+                <img src="assets/images/partner2.png" alt="Partner 2">
+                <!-- Add more partners/sponsor logos as needed -->
+            </div>
+        </section>
+
+        <!-- Downloadable Resources -->
+        <section class="resources" id="resources">
+            <h2>Downloadable Resources</h2>
+            <ul>
+                <li><a href="assets/docs/brochure.pdf" download>Company Brochure (PDF)</a></li>
+                <li><a href="assets/docs/abacus-sheet.pdf" download>Abacus Practice Sheet (PDF)</a></li>
+                <!-- Add more resources as needed -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 BMG Company of Ghana. All rights reserved.</p>
+            <p>
+                Tel: <a href="tel:0257168115">0257168115</a> / <a href="tel:0553448460">0553448460</a><br>
+                Email: <a href="mailto:bmgstem1@gmail.com">bmgstem1@gmail.com</a><br>
+                <span>Connect:
+                    <a href="https://facebook.com/" class="social-icon facebook" target="_blank" rel="noopener">Facebook</a> |
+                    <a href="https://instagram.com/" class="social-icon instagram" target="_blank" rel="noopener">Instagram</a> |
+                    <a href="https://twitter.com/" class="social-icon twitter" target="_blank" rel="noopener">Twitter</a>
+                </span>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
